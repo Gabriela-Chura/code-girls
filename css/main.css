@@ -1,0 +1,164 @@
+
+
+body {
+  margin: 0px;
+  
+}
+
+header {
+  background-color: ghostwhite;
+ }
+
+.titulo{
+    color: darkgray;
+    font-size: 20px;
+}
+
+.menu {
+  padding: 24px;
+  text-align: right;
+}
+.link-3 {
+  transition: 0.4s;
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.link-3:hover {
+  background-color:gainsboro;
+  padding: 24px 10px;
+    text-decoration: none;
+    color: black;  
+}
+
+ul{
+  list-style: none;
+}
+
+
+#segundom li>a{
+  background-color: greyghostwhite;;
+  color: grey;
+  padding: 5px 0;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+}
+#segundom li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+}
+#segundom>li{
+  float: right;
+  text-align:center
+}
+#segundom>li>ul{
+  display: none;
+}
+#segundom>li:hover>ul {
+  display:block;
+}
+
+/*---------------------------------------BANNEER-------------**/
+.banner{
+    background-image: url(../img/home.jpg);
+    width: 100%;
+    height: auto;
+    background-position: top;
+}
+
+.texto{
+    text-align: center;
+    padding: 18% 0;
+    font-weight: 600;
+    
+   }
+
+.texto h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+   }
+
+/*----------------------------------DOCUMENTAL-------------**/
+
+.contenidouno h3 {
+    padding: 8% 0 2% 0;
+   
+     
+}
+
+.textodos{
+    padding: 30px 0;
+    
+    
+   
+}
+
+
+
+/*----------------------------------DOCUMENTAL-------------**/
+
+.hackathon{
+    background-color: yellow;
+    padding: 50px 0;
+}
+
+.textotres{
+    padding: 15% 0;
+}
+
+/*-------------------------------- FORMULARIOIMG-------------**/
+
+.imagen {
+    padding: 5% 0;
+}
+
+.contacto {
+    line-height: 0.8;
+}
+
+/*-------------------------------FOOTER-------------**/
+
+.footer{
+    background-color: #65A7D6;
+   padding: 5% 0; 
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FAF215;
+}
+
+/*------------------------------RESPONSIVE-------------**/
+
+@media screen and (max-width: 2000px){
+    .oculto{
+        visibility: hidden;
+        display: none;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 780px){
+    
+    .menu{
+        visibility: hidden;
+        display: none;
+    }
+    
+    .oculto{
+        visibility: visible;
+        display: block;
+        
+    }
+     
+    
+    
+}
