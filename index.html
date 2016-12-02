@@ -1,57 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta charset="UTF-8">	
 	<title>Coder Girl</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="iconooos/style.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link rel="stylesheet" href="css/bootstrap.min.js">
-	<link rel="stylesheet" href="iconos/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
 </head>
 <body>
 
 <!--------------------HEADER------------------------------------>
-	<header>
-      <div class="container">
-         <div class="row">
-            <div class="col-md-6">
-                <h3 class="titulo">Code Girls</h3>
-                
-            </div>
-            <div class="col-md-6">
-               
-                <div class="menu">
-              <a class="link-3" href="#">Inicio</a>
-              <a class="link-3" href="#documental">Documental</a>
-              <a class="link-3" href="#hackathon">Hackathon</a>
-              <a class="link-3" href="#formulario">Contacto</a>
-                </div>
-                
-                 <nav class="oculto">
-        <ul id="segundom">
-          
-          <li><a href="#" class="icon-menu"></a>
-            <ul>
-              <li><a class="link-3" href="#">Inicio</a></li>
-              <li><a class="link-3" href="#documental">Documental</a></li>
-              <li><a class="link-3" href="#hackathon">Hackathon</a></li>
-              <li><a class="link-3" href="#formulario">Contacto</a></li>
-            </ul>  
-          </li>
-          
-        </ul>
-      </nav>
-                
-                
-             </div>
-             </div>
+	<header class="menu">
+    <div class="container"> 
+      <div class="row">
+       <div class="col-md-3 col-sm-12 col-xs-6 ">
+          <h3 style="font-family: 'Raleway', sans-serif;"> Code Girls</h3>
           </div>
+           
+        <div class="col-md-9 col-sm-12 col-xs-6 navega">
+            <div class="visible-xs text-right">
+            <button class="btn btn-default boton" type="button" data-toggle="collapse" data-target="#main-navigation"><i class="icon-menu"></i>
+            </button>
+            </div>
+            
+             <nav class="hidden-xs">
+             <ul class=" desktop-menu list-inline text-right">
+               <li><a href="#">Inicio</a></li>
+               <li><a href="#documental">Documental</a></li>
+               <li><a href="#hackathon">Hackathon</a></li>
+               <li><a href="#formulario">Contacto</a></li>
+             </ul>
+         </nav>
+         
+         
+       
+        </div>
+           </div>
+           
+                      <nav class="visible-xs">
+                      <div id="main-navigation" class="collapse">
+           <ul class="mobile-menu text-right">
+               <li><a href="#">Inicio</a></li>
+               <li><a href="#documental">Documental</a></li>
+               <li><a href="#hackathon">Hackathon</a></li>
+               <li><a href="#formulario">Contacto</a></li>
+             </ul>
+             </div>
+            </nav>
+        
+
+            
+            
+         </div>
+         
+          
       </header>
-      
-      
-      
       
 <!----------------------BANNER------------------------------------>      
       <section class="banner">
@@ -59,7 +68,7 @@
             
        
          <div class="texto">
-          <h1> CHICAS QUE CAMBIAN EL MUNDO</h1>
+          <h1 style=""> CHICAS QUE CAMBIAN EL MUNDO</h1>
           <p>¡Participa en nuestras actividades!</p>
           <button type="button" class="btn btn-primary btn-lg">Inscríbete</button>
           </div>
@@ -94,7 +103,8 @@
           <div class="container">
             <div class="row">
                <div class="col-md-6">
-                   <img src="img/hackathon.jpg" alt="" width="100%" height="70%" class="img-responsive">;
+                   <img src="img/hackathon.jpg" alt="" width="100%" height="70%" class="img-responsive">
+               
                </div>
                 <div class="col-md-6">
                     <div class="textotres">
@@ -155,6 +165,14 @@
          </div>
           
       </section>
+
+
+
+
+
+
+
+
       
 </body>
 </html>
