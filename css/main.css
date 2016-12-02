@@ -188,7 +188,13 @@ nav li a:hover, nav li a:focus, nav li a:active{
     
     .titulo{
     margin: 10px;
+    
+    
 }
+    
+    .texto h1 {
+            padding-top: 50px;
+    }
 
 }
 
